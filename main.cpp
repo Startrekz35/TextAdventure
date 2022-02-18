@@ -7,7 +7,7 @@ std::string name;
 int main()
 {
     std::cout << "Welcome to Text Game Unlimited" << std::endl;
-    std::cout << std::endl;
+    std::cout << std::endl; //New Line to keep code clean
 
     std::cout << "Press Enter to Continue" << std::endl;
     while (std::cin.get()!= '\n'); //Used a newline as a way to press "enter"
@@ -30,6 +30,8 @@ int main()
     
     std::cout << std::endl;
     std::cout << "Thank you, let us continue." << std::endl;
+
+    std::cout << std::endl;
 
     return 0;
 }
